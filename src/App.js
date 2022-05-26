@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Cart from "./components/Cart/Cart";
+import FoodItems from "./components/FoodItems/FoodItems";
+import SingleFoodItem from "./components/SingleFoodItem/SingleFoodItem";
+import Sliders from "./components/Sliders/Sliders";
+import AdminPanel from './components/AdminPanel/AdminPanel';
+import Order from "./components/OrderPage/Order";
+import Invoice from "./components/Invoice/Invoice";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Sliders />
+      <FoodItems />
+      <SingleFoodItem />
+      <Cart />
+      <AdminPanel />
+      <Order />
+      <Invoice />
     </div>
   );
 }
