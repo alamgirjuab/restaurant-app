@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Nasi Goreng",
+        "description": "Malaysian nasi goreng",
+        "img": "https://restaurant.bdtask.com/demo/application/modules/itemmanage/assets/images/medium/pngwing_com_(16)1.png"
+    },
+    {
+        "name": "Burger",
+        "description": "Chainese King Size Burger",
+        "img": "https://restaurant.bdtask.com/demo/application/modules/itemmanage/assets/images/medium/menu-modern-5-310x2601.png"
+    },
+    {
+        "name": "Weekend Snacks",
+        "description": "Weekend Snacks",
+        "img": "https://restaurant.bdtask.com/demo/application/modules/itemmanage/assets/images/medium/pngwing_com_(14).png"
+    },
+    {
+        "name": "ShakShuka",
+        "description": "Thai ShakShuka",
+        "img": "https://restaurant.bdtask.com/demo/application/modules/itemmanage/assets/images/medium/07.png"
+    },
+    {
+        "name": "Arabian Pizza",
+        "description": "Arabian Pazza",
+        "img": "https://restaurant.bdtask.com/demo/application/modules/itemmanage/assets/images/medium/slide-caption-image-1-599x5961.png"
+    },
+    {
+        "name": "Nasi Goreng",
+        "description": "Malaysian nasi goreng",
+        "img": "https://restaurant.bdtask.com/demo/application/modules/itemmanage/assets/images/medium/pngwing_com_(16)1.png"
+    }
+]

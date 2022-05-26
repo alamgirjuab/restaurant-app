@@ -1,8 +1,9 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 import './Invoice.css';
+import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 
-const Invoice = () => {
+const InvoiceCopy = () => {
     return (
         <>
             <div className="container">
@@ -65,4 +66,4 @@ const Invoice = () => {
     );
 };
 
-export default Invoice;
+export default InvoiceCopy;
