@@ -4,6 +4,8 @@ import AdminPanel from './components/AdminPanel/AdminPanel';
 import Order from "./components/OrderPage/Order";
 import Invoice from "./components/Invoice/Invoice";
 import Header from "./components/Shared/Header/Header";
+import { PDFDownloadLink } from "@react-pdf/renderer";
+import { Button } from "react-bootstrap";
 
 
 function App() {
@@ -14,6 +16,10 @@ function App() {
       <Cart />
       <AdminPanel />
       <Order /> */}
+      <PDFDownloadLink document={<Invoice />} fileName="Invoice">
+        {(loading => (loading ? <Button>invoice downloading</Button> : <Button>download</Button>))}
+      </PDFDownloadLink>
+
       <Invoice />
     </div>
   );

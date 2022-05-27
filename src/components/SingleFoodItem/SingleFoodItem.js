@@ -4,6 +4,7 @@ import './SingleFoodItem.css';
 
 const SingleFoodItem = ({ food }) => {
     const { description, name, img } = food;
+
     return (
         <div>
             <Card style={{ width: '25rem' }}>
